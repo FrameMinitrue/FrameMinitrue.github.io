@@ -1,0 +1,50 @@
+site_name: Frame Truth | 帧理
+site_url: https://frameminitrue.github.io/
+site_author: Frame Minitrue
+site_description: >-
+  影视技术自学指南
+
+repo_name: FrameMinitrue.github.io
+repo_url: https://github.com/FrameMinitrue/FrameMinitrue.github.io
+
+copyright: Copyright &copy; 2022-present <a href="https://github.com/FrameMinitrue" target="_blank" rel="noopener noreferrer">FrameMinitrue</a>
+
+
+theme:
+  name: material
+  language: zh
+
+  static_templates:
+    - 404.html
+
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    # - navigation.instant
+    # - navigation.expand
+    # - navigation.sections
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+    - content.code.annotate
+
+nav:
+  - 前言: "index.md"
+  - 学习路径: "学习路径.md"
+  - 基础: 
+    - 数理基础: 
+      - 信息原理: "基础/数理基础/信息原理.md"
+      - 数学: "基础/数理基础/数学.md"
+      - 物理: "基础/数理基础/物理.md"
+      - 测试: 
+        - 测试: 
+          - 123: 
+            - 1: "基础/数理基础/测试/测试/123/1.md"
