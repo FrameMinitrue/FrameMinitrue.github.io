@@ -5,12 +5,14 @@ def navigation(path):
     for root, dirs, files in os.walk(path):
         level = root.replace(path, '').count(os.sep)
         indent = ' ' * 2 * (level + 1)
-        if root == "./docs/images":
+        if root.endswith("images"):
             continue
         if root != "./docs/" and os.listdir(root):
             nav += indent + "- " + os.path.basename(root) + ": " + '\n'
         subindent = ' ' * 2 * (level + 2)
         for file in files:
+            if not file.endswith(".md"):
+                continue
             if root != "./docs/":
                 nav += subindent + "- " + file[:-3] + ": \"" + root.replace('\\','/')[7:] + '/' + file + "\"\n"
             elif file == "index.md":

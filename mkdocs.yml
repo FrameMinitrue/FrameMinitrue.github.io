@@ -36,6 +36,9 @@ theme:
     # - toc.integrate
     - content.code.annotate
 
+markdown_extensions:
+  - attr_list
+
 nav:
   - 前言: "index.md"
   - 学习路径: "学习路径.md"
