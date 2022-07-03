@@ -17,16 +17,9 @@
    
    `python gen_nav.py`
 
-5. 提交`main`分支
-   在`FrameMinitrue.github.io`文件夹下：
-   
-   `git add .`
-   
-   `git commit -m "[提交信息，自定义]"`
-   
-   `git push -u origin main`
+5. 提交`main`分支，推荐在pycharm/vscode下直接编辑后，直接update/commit/push完成，熟悉git的可以用命令行
 
-6. 提交`gh-pages`分支，部署网站
+7. 提交`gh-pages`分支，部署网站
    
    在`FrameMinitrue.github.io`文件夹下：
    
