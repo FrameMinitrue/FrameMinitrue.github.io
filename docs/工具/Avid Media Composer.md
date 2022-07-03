@@ -1,0 +1,1 @@
+![L03_Component](./images/L03_Component.png){: style="width:50%"}
