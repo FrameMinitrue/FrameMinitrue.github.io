@@ -1,1 +1,1 @@
-![L03_Component](./images/L03_Component.png){: style="width:50%"}
+[【Avid MC 系列教程】00 序言 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/406309016)
